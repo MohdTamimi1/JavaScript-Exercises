@@ -9,7 +9,6 @@ const findTheOldest = (list) => {
     }
     return list[oldest.indexOf(Math.max(...oldest))];
 };
-
 // const list = [
 //     {
 //         name: "Carly",
@@ -27,7 +26,6 @@ const findTheOldest = (list) => {
 //         yearOfDeath: 1941,
 //     },
 // ];
-
 // console.log(findTheOldest(list));
 
 // Do not edit below this line
